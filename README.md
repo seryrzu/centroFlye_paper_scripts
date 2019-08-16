@@ -29,7 +29,7 @@ Below we specify the section of the paper for each notebook.
 + `Partitioning_centromeric_reads_into_units.ipynb` replicates `Methods: Partitioning centromeric reads into units (Figure 2.2)`
 + `Polishing_the_constructed_centromere_sequence.ipynb` replicates `Polishing the reconstructed centromere sequence (Figure 2.7)`
 + `Recruiting_centromeric_reads.ipynb` replicates `Recruiting centromeric reads (Figure 2.1)`
-+ `Results_and_several_Appendices.ipynb` replicates `Appendices`: `Analysis of centromeric reads that do not map to centroFlye assembly`, `Hanging index test`, and `Breakpoint test`.
++ `Results_and_several_Appendices.ipynb` replicates `Results` and `Appendices`: `Analysis of centromeric reads that do not map to centroFlye assembly`, `Hanging index test`, and `Breakpoint test`.
 
 
 ## Publications
