@@ -6,12 +6,16 @@ This repository contains scripts to replicate results of centroFlye paper (see `
 [centroFlye repository](https://github.com/seryrzu/centroFlye) is included as a submodule.
 Thus, please clone the repo with the following command
 
-```git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.git```
-
+```
+git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.git
+```
 
 ## Necessary data
-Please, download necessary data from [ZENODO](TODO) and put the results in `data` directory (TODO: add command).
-
+Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3369553).
+Unzip data with command
+```
+tar -xvf centroFlye_data_v0_8_3.tar.gz
+```
 
 ## Jupyter notebooks
 The following notebooks (in directory `jupyters`) replicate the results in the paper.
@@ -33,4 +37,4 @@ Below we specify the section of the paper for each notebook.
 
 
 ## Publications
-Bzikadze A., Pevzner P.A. centroFlye: Assembling Centromeres with Long Error-Prone Reads, 2019, *bioRxiv* TODO add DOI
+Bzikadze A., Pevzner P.A. centroFlye: Assembling Centromeres with Long Error-Prone Reads, 2019, bioRxiv
