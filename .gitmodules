@@ -1,4 +1,4 @@
 [submodule "centroFlye_repo"]
 	path = centroFlye_repo
 	url = git@github.com:seryrzu/centroFlye.git
-	branch = v0.8.3
+	branch = centroFlye_refactoring
