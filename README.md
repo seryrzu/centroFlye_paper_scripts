@@ -11,10 +11,10 @@ git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.g
 ```
 
 ## Necessary data
-Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3369553).
+Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3593460) (latest version).
 Unzip data with command
 ```
-tar -xvf centroFlye_data_v0_8_3.tar.gz
+tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-uploaded20200407.tar.gz
 ```
 
 ## Jupyter notebooks
@@ -22,10 +22,12 @@ The following notebooks (in directory `jupyters`) replicate the results in the p
 Below we specify the section of the paper for each notebook.
 + `Appendix_analysis_structural_variations.ipynb` replicates `Appendix: Abnormal units in centroFlye cenX assembly`.
 + `Appendix_Benchmark_simulated_reads.ipynb` replicates `Appendix: Benchmarking centroFlye on simulated datasets`
++ `Appendix_cen6.ipynb` replicates `Appendix: Assembly of centromere on chromosome 6`
 + `Appendix_Deriving_accurate_consensus_HOR.ipynb` replicates `Appendix: Deriving accurate consensus HORs`
 + `Appendix_DXZ1BothOrient_Alu_NonunifCov.ipynb` replicates `Appendices`: `Analysis of reads with reported DXZ1 alignments to both strand orientations`, `Search for Alu insertions in cenX`, `Analyzing non-uniform read coverage of the T2T4 read-set`
 + `Appendix_Evolution.ipynb` replicates `Appendix: Variations in HORs provide insights into evolutionary history of cenX`
 + `Appendix_nonunique_kmers.ipynb` replicates `Analysis of frequencies of recruited k-mers in the centroFlye cenX assembly`
++ `Appendix_subsampling.ipynb` replicates `Appendix N: Effects of downsampling and read trimming on centromere assembly`.
 + `Classifying_centromeric_reads_into_prefix_internal_and_suffix_reads.ipynb` replicates `Methods: Classifying centromeric reads into prefix, internal, and suffix reads (Figure 2.3)`
 + `Constructing_the_distance_graph.ipynb` replicates `Methods: Identifying rare centromeric k-mers (Figure 2.4)` and `Methods: Constructing the distance graph (Figure 2.5)`
 + `Dataset.ipynb` replicates `Methods: Dataset`
@@ -37,4 +39,4 @@ Below we specify the section of the paper for each notebook.
 
 
 ## Publications
-Bzikadze A., Pevzner P.A. centroFlye: Assembling Centromeres with Long Error-Prone Reads, 2019, bioRxiv
+Bzikadze A.V., Pevzner P.A. centroFlye: Assembling Centromeres with Long Error-Prone Reads, 2019, bioRxiv
