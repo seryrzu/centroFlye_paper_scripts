@@ -11,7 +11,7 @@ git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.g
 ```
 
 ## Necessary data
-Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3369553) (latest version).
+Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3593460) (latest version).
 Unzip data with command
 ```
 tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-uploaded20200407.tar.gz
