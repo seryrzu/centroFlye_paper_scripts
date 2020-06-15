@@ -1,4 +1,4 @@
 [submodule "centroFlye_repo"]
 	path = centroFlye_repo
 	url = git@github.com:seryrzu/centroFlye.git
-	branch = Xv0.8.3-6v0.1.3
+	branch = cF_NatBiotech_paper_Xv0.8.3-6v0.1.3
