@@ -15,7 +15,7 @@ Please, download necessary data from [ZENODO](http://doi.org/10.5281/zenodo.3897
 Note that the versions of assemblies that are described in the paper and are used here: cenX - v0.8.3, cen6 - v0.1.3.
 Updated assemblies may be available in the future — they will be described in the [master branch of the centroFlye repository](https://github.com/seryrzu/centroFlye/).
 
-Unzip data with command
+Extract the data collection with the following command
 ```
 tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_20200616.tgz
 ```
