@@ -1,6 +1,6 @@
 # centroFlye paper scripts
 
-This repository contains scripts to replicate results of centroFlye paper (see `Publications`).
+This repository contains scripts to replicate results of the centroFlye paper in Nature Biotechnology, 2020 (see `Publications`).
 
 ## centroFlye version
 [centroFlye repository](https://github.com/seryrzu/centroFlye/tree/cF_NatBiotech_paper_Xv0.8.3-6v0.1.3) is included as a submodule (note, the used branch: `cF_NatBiotech_paper_Xv0.8.3-6v0.1.3`).
