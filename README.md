@@ -4,20 +4,20 @@ This repository contains scripts to replicate results of the centroFlye paper in
 
 ## centroFlye version
 [centroFlye repository](https://github.com/seryrzu/centroFlye/tree/cF_NatBiotech_paper_Xv0.8.3-6v0.1.3) is included as a submodule (note, the used branch: `cF_NatBiotech_paper_Xv0.8.3-6v0.1.3`).
-Thus, please clone the repo with the following command
+Thus, please, clone the repo with the following command
 
 ```
 git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.git
 ```
 
 ## Necessary data
-Please, download necessary data from [ZENODO](http://doi.org/10.5281/zenodo.3897531) (latest version).
+Please, download necessary data from [ZENODO](http://doi.org/10.5281/zenodo.3897531) (latest version) and place the archive `centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-uploaded20200407.tar.gz` in the root of the repo.
 Note that the versions of assemblies that are described in the paper and are used here: cenX - v0.8.3, cen6 - v0.1.3.
-Updated versions of these assemblies may be available in the future — they will be described in the [master branch of the centroFlye repository](https://github.com/seryrzu/centroFlye/).
+Updated assemblies may be available in the future — they will be described in the [master branch of the centroFlye repository](https://github.com/seryrzu/centroFlye/).
 
 Unzip data with command
 ```
-tar -xvf ccentroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_20200616.tgz
+tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_20200616.tgz
 ```
 
 ## Jupyter notebooks
