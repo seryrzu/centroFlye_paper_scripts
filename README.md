@@ -11,13 +11,13 @@ git clone --recurse-submodules git@github.com:seryrzu/centroFlye_paper_scripts.g
 ```
 
 ## Necessary data
-Please, download necessary data from [ZENODO](https://doi.org/10.5281/zenodo.3593460) (latest version).
+Please, download necessary data from [ZENODO](http://doi.org/10.5281/zenodo.3897531) (latest version).
 Note that the versions of assemblies that are described in the paper and are used here: cenX - v0.8.3, cen6 - v0.1.3.
-Updated versions of these assemblies may be available in the future and will be placed in the same ZENODO record.
+Updated versions of these assemblies may be available in the future — they will be described in the [master branch of the centroFlye repository](https://github.com/seryrzu/centroFlye/).
 
 Unzip data with command
 ```
-tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-uploaded20200407.tar.gz
+tar -xvf ccentroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_20200616.tgz
 ```
 
 ## Jupyter notebooks
