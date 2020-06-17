@@ -19,6 +19,7 @@ Extract the data collection with the following command
 ```
 tar -xvf centroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_20200616.tgz
 ```
+All information will be extracted in the `data` directory.
 
 ## Jupyter notebooks
 The following notebooks (in directory `jupyters`) replicate the results in the paper.
@@ -39,6 +40,40 @@ Below we specify the section of the paper for each notebook.
 + `14-SuppNote5_Deriving_accurate_consensus_HOR.ipynb` replicates `Supplementary Note 5: Deriving accurate consensus HORs`
 + `15-SuppNote6-Effects_of_downsampling.ipynb` replicates `Supplementary Note 6. Assembly of centromere on chromosome 6: Effects of downsampling and read trimming on cen6 assembly`
 + `16-SuppFigure1-Frequencies_of_the_recruited_19-mers_in_the_centroFlye_cenX_assembly.ipynb` replicates `Supplementary Figure 1: Frequencies of the recruited 19-mers in the centroFlye cenX assembly`
+
+## Figures in the paper -> Jupyter notebook number
+| # Figure | # Jupyter notebook |
+| --- | --- |
+| 1 | Manual |
+| 2 | Manual |
+| 3a | 07 |
+| 3b | 09 |
+| 3cde | 02 |
+| 3d | 02 |
+| 3e | 02 |
+| 4abcd | 02 |
+| 5 | 02 |
+| 6 | 02 |
+| S2.1 | 02 |
+| S2.2 | 02 |
+| S3.1 | 12 |
+| S3.2 | 12, `data/abnormal_units` |
+| S3.3 | 12, `data/abnormal_12_mers` |
+| S3.4 | Manual |
+| S4.1 | 02 |
+| S4.2 | Can be reproduced with [gepard](http://cube.univie.ac.at/gepard), `data/centroFlye_results/centromeric_reads/centromeric_reads.fasta`|
+| S5.1 | Can be reproduced with [gepard](http://cube.univie.ac.at/gepard) `data/DXZ1/DXZ1_rc.fasta`|
+| S5.2 | 14 |
+| S6.1 | 10, `data/cen6_hor_graph` |
+| S6.2 left | cen6 assembly (main algorithm): left saved* in `data/centroFlyeMono_results_cen6/centroFlyeMono_cen6/idb/db_k400.dot`.     pdf can be generated with `dot -Tpdf db_k400.dot -o db_k400.pdf` |
+| S6.2 right | Manual from S6.2 |
+| S6.3 | 10, `data/centroFlyeMono_results_cen6/tandemQUAST_report/report` |
+| S6.4 | 15 |
+| S6.5 | 15, `data/subsampling` |
+| SF1 | 16 |
+| SF2 | 13 |
+| SF3,4 | 03 |
+| SF5 | 03 + Manual |
 
 
 ## Publications
