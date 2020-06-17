@@ -23,22 +23,22 @@ tar -xvf ccentroFlye_data_cenXv0_8_3_cen6v0_1_3_20191224-updatedAndUplodaded_202
 ## Jupyter notebooks
 The following notebooks (in directory `jupyters`) replicate the results in the paper.
 Below we specify the section of the paper for each notebook.
-+ `Appendix_analysis_structural_variations.ipynb` replicates `Appendix: Abnormal units in centroFlye cenX assembly`.
-+ `Appendix_Benchmark_simulated_reads.ipynb` replicates `Appendix: Benchmarking centroFlye on simulated datasets`
-+ `Appendix_cen6.ipynb` replicates `Appendix: Assembly of centromere on chromosome 6`
-+ `Appendix_Deriving_accurate_consensus_HOR.ipynb` replicates `Appendix: Deriving accurate consensus HORs`
-+ `Appendix_DXZ1BothOrient_Alu_NonunifCov.ipynb` replicates `Appendices`: `Analysis of reads with reported DXZ1 alignments to both strand orientations`, `Search for Alu insertions in cenX`, `Analyzing non-uniform read coverage of the T2T4 read-set`
-+ `Appendix_Evolution.ipynb` replicates `Appendix: Variations in HORs provide insights into evolutionary history of cenX`
-+ `Appendix_nonunique_kmers.ipynb` replicates `Analysis of frequencies of recruited k-mers in the centroFlye cenX assembly`
-+ `Appendix_subsampling.ipynb` replicates `Appendix N: Effects of downsampling and read trimming on centromere assembly`.
-+ `Classifying_centromeric_reads_into_prefix_internal_and_suffix_reads.ipynb` replicates `Methods: Classifying centromeric reads into prefix, internal, and suffix reads (Figure 2.3)`
-+ `Constructing_the_distance_graph.ipynb` replicates `Methods: Identifying rare centromeric k-mers (Figure 2.4)` and `Methods: Constructing the distance graph (Figure 2.5)`
-+ `Dataset.ipynb` replicates `Methods: Dataset`
-+ `Identifying_rare_centromeric_k-mers.ipynb` replicates `Methods: Identifying rare centromeric k-mers (Figure 2.4)`
-+ `Partitioning_centromeric_reads_into_units.ipynb` replicates `Methods: Partitioning centromeric reads into units (Figure 2.2)`
-+ `Polishing_the_constructed_centromere_sequence.ipynb` replicates `Polishing the reconstructed centromere sequence (Figure 2.7)`
-+ `Recruiting_centromeric_reads.ipynb` replicates `Recruiting centromeric reads (Figure 2.1)`
-+ `Results_and_several_Appendices.ipynb` replicates `Results` and `Appendices`: `Analysis of centromeric reads that do not map to centroFlye assembly`, `Hanging index test`, and `Breakpoint test`.
++ `01-Results-cenX_assembly-dataset.ipynb` replicates `Results: cenX assembly, dataset description`
++ `02-Results_SuppNote2_4.ipynb` replicates `Results` (comparison of T2T and centroFlye assemblies) and `Supp. notes`: `4: Analysis of centromeric reads that do not map to centroFlye assembly`, `2: Hanging index test and Breakpoint test`
++ `03-Results_CentromereEvolutionInsights.ipynb` replicates `Results: Variations in HORs provide insights into centromere evolution`
++ `04-Methods_Recruiting_centromeric_reads.ipynb` replicates `Methods: Recruiting centromeric reads (Figure 1.1)`
++ `05-Methods_Partitioning_centromeric_reads_into_units.ipynb` replicates `Methods: Partitioning centromeric reads into units (Figure 1.2)`
++ `06-Methods_Classifying_centromeric_reads_into_prefix_internal_and_suffix_reads.ipynb` replicates `Methods: Classifying centromeric reads (Figure 1.3)`
++ `07-Methods_Identifying_rare_centromeric_k-mers.ipynb` replicates `Methods: Identifying rare centromeric k-mers (Figure 1.4)`
++ `08-Methods_Constructing_the_distance_graph.ipynb` replicates `Methods: Constructing the distance graph (Figure 1.5)`
++ `09-Methods_Polishing_the_constructed_centromere_sequence.ipynb` replicates `Methods: Polishing the reconstructed centromere sequence (Figure 1.7)`
++ `10-Methods_cen6.ipynb` replicates `Methods: Assembly of cen6, Recruitment of centromeric reads from cen6, Transforming reads into monoreads, Error correction of monoreads, Constructing iterative de Bruijn graph of monoreads, Assembling monocentromere by scaffolding, Translating monocentromere to the nucleotide alphabet`
++ `11-SuppNote1_Benchmarking_centroFlye_on_simulated_dataset.ipynb` replicates `Supplementary Note 1: Benchmarking centroFlye on simulated datasets`
++ `12-SuppNote3_Abnormal_units_in_centroFlye_cenX_assembly.ipynb` replicates `Supplementary Note 2: Abnormal units in centroFlye cenX assembly`
++ `13-SuppNote4_DXZ1BothOrient_Alu_NonunifCov.ipynb` replicates parts of `Supplementary Note 4. Analysis of centromeric reads that do not map to centroFlye assembly` (also see jupyter #2)
++ `14-SuppNote5_Deriving_accurate_consensus_HOR.ipynb` replicates `Supplementary Note 5: Deriving accurate consensus HORs`
++ `15-SuppNote6-Effects_of_downsampling.ipynb` replicates `Supplementary Note 6. Assembly of centromere on chromosome 6: Effects of downsampling and read trimming on cen6 assembly`
++ `16-SuppFigure1-Frequencies_of_the_recruited_19-mers_in_the_centroFlye_cenX_assembly.ipynb` replicates `Supplementary Figure 1: Frequencies of the recruited 19-mers in the centroFlye cenX assembly`
 
 
 ## Publications
